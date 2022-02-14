@@ -1,0 +1,57 @@
+import Vue from 'vue';
+
+import SearchForm from '@/components/search/search-form.vue';
+import SelectListModal from '@/components/select-list-modal';
+import Authority from '@/entities/system/authority';
+import User from '@/entities/system/user';
+import DepartmentAuthority from '@/entities/settings/department-authority';
+import SmsMessage from '@/entities/system/sms-message';
+import OssConfig from '@/entities/files/oss-config';
+import ApiPermission from '@/entities/system/api-permission';
+import UploadImage from '@/entities/files/upload-image';
+import SmsConfig from '@/entities/files/sms-config';
+import UReportFile from '@/entities/report/u-report-file';
+import AnnouncementRecord from '@/entities/system/announcement-record';
+import Department from '@/entities/settings/department';
+import SmsTemplate from '@/entities/system/sms-template';
+import SiteConfig from '@/entities/system/site-config';
+import Announcement from '@/entities/system/announcement';
+import BusinessType from '@/entities/settings/business-type';
+import SysLog from '@/entities/system/sys-log';
+import ViewPermission from '@/entities/system/view-permission';
+import DataPermissionRule from '@/entities/system/data-permission-rule';
+import SysFillRule from '@/entities/settings/sys-fill-rule';
+import ResourceCategory from '@/entities/files/resource-category';
+import UploadFile from '@/entities/files/upload-file';
+import Position from '@/entities/settings/position';
+import DataDictionary from '@/entities/settings/data-dictionary';
+import RegionCode from '@/entities/settings/region-code';
+// jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
+
+Vue.component('search-form', SearchForm);
+Vue.use(SelectListModal);
+Vue.use(Authority);
+Vue.use(User);
+Vue.use(DepartmentAuthority);
+Vue.use(SmsMessage);
+Vue.use(OssConfig);
+Vue.use(ApiPermission);
+Vue.use(UploadImage);
+Vue.use(SmsConfig);
+Vue.use(UReportFile);
+Vue.use(AnnouncementRecord);
+Vue.use(Department);
+Vue.use(SmsTemplate);
+Vue.use(SiteConfig);
+Vue.use(Announcement);
+Vue.use(BusinessType);
+Vue.use(SysLog);
+Vue.use(ViewPermission);
+Vue.use(DataPermissionRule);
+Vue.use(SysFillRule);
+Vue.use(ResourceCategory);
+Vue.use(UploadFile);
+Vue.use(Position);
+Vue.use(DataDictionary);
+Vue.use(RegionCode);
+// jhipster-needle-add-entity-service-to-main-use - JHipster will import entities services here
